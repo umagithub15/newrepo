@@ -1,0 +1,17 @@
+eksctl create cluster --name eksctl-test --version 1.15 --node-type t3.micro --nodes 2
+
+eksctl create cluster --name eksctl-test --nodegroup-name ng-default --node-type t3.micro --nodes 2
+
+
+AKIAZDFDLTUOWORNV7XR 
+
+5IVk++Pb90BS8yVh4HoSOVXQDC8SVhEvxJx9vxA+
+
+
+EKS ROLE ARN:
+
+arn:aws:iam::625260338461:role/EKSKubectlRole
+
+ekscicdIAMStack-CodeBuildServiceRole-1ORYSDT4VKNU1	
+
+ekscicdIAMStack-CodePipelineServiceRole-4WS5OIID6VQI	
